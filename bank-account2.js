@@ -28,13 +28,7 @@ function getAccount(username) {
 	return result;
 }
 
-accounts.forEach(function(asss){
-	asss
-});
-
-// console.log(getAccount('BoobooCurio'));
-
-// console.log(accounts);
+console.log(accounts);
 
 // Test it out:
 	// Create some new accounts, do some deposits and withdrawals
@@ -50,44 +44,3 @@ function withdraw(account, amount) {
 function getBalance(account) {
 	return account.balance;
 }
-
-
-
-
-
-var names = ['danielle', 13, [1, 5, 6], 'kingsley', 'booboo'];
-
-names.forEach(function(name) {
-	console.log('hello ' + name);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
