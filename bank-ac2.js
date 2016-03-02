@@ -28,26 +28,27 @@ function getBalance (account) {
 	return account.balance;
 }
 
-var andrewsAccount = createAccount({
-	username: 'Andrew',
+var daniellesAccount = createAccount({
+	username: 'Danielle',
 	balance: 0
 });
 
-deposit(andrewsAccount, 100);
-console.log(getBalance(andrewsAccount));
+deposit(daniellesAccount, 100);
+console.log(getBalance(daniellesAccount));
 
-withdraw(andrewsAccount, 11);
-console.log(getBalance(andrewsAccount));
+withdraw(daniellesAccount, 11);
+console.log(getBalance(daniellesAccount));
 
-var	existingAccount = getAccount('Andrew');
-console.log(getBalance(andrewsAccount));
+var	existingAccount = getAccount('Danielle');
+console.log(getBalance(daniellesAccount));
 
-var jensAccount = createAccount({
-	username: 'jen001',
+var PinkysAccount = createAccount({
+	username: 'Pinky',
 	balance: 12
 });
 
 console.log(accounts);
 
-var existingJensAccount = getAccount('jen001');
-console.log(existingJensAccount);
+var existingPinkysAccount = getAccount('Pinky');
+console.log(existingPinkysAccount);
+
